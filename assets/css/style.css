@@ -15,6 +15,15 @@ img {
   height: auto;
 }
 
+.navbar {
+  padding-left: 1em;
+}
+
+.navbar .navbar-collapse .navbar-nav .nav-item {
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
 .navbar .container-fluid .navbar-brand {
   color: rgb(9, 132, 255);
   font-size: 2em;
@@ -24,10 +33,28 @@ img {
 .col h5 {
   padding: 0;
   margin: 0;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  color: rgb(9, 132, 255);
 }
 
 .col .dropdown-item {
   padding: 0;
+  padding-top: 0.1em;
+  padding-left: 0.1em;
+  padding-right: 0.1em;
+  margin: 0;
+}
+
+.dropdown-item:hover {
+  background-color: rgba(9, 132, 255, 0.09) !important;
+}
+
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown > .dropdown-toggle:active {
+  pointer-events: none;
 }
 
 .hero {
