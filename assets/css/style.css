@@ -53,9 +53,11 @@ img {
 .dropdown:hover > .dropdown-menu {
   display: block;
 }
+
 .dropdown > .dropdown-toggle:active {
   pointer-events: none;
 }
+
 
 .hero {
   background: url(/assets/img/a2.png) rgba(9, 132, 255, 0.5);
