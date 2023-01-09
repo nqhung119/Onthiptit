@@ -58,7 +58,6 @@ img {
   pointer-events: none;
 }
 
-
 .hero {
   background: url(/assets/img/a2.png) rgba(9, 132, 255, 0.5);
   height: 470px;
@@ -134,10 +133,12 @@ img {
   align-items: center;
   border-radius: 50%;
   text-decoration: none;
+
 }
 
-.credit {
-  text-align: left;
-  background-color: rgba(0, 0, 0, 0.2);
-  color: black;
+
+
+.my-4 {
+  margin-bottom: 0.5em !important;
+  margin-top: 0.5em !important;
 }
