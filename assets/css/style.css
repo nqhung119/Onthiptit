@@ -10,13 +10,6 @@ body {
   padding-top: 70px;
 }
 
-@media (min-width: 992px) {
-  .navbar li {
-    margin-left: 1em;
-    margin-right: 1em;
-  }
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -110,4 +103,3 @@ img {
   background-color: rgba(0, 0, 0, 0.2);
   color: black;
 }
-

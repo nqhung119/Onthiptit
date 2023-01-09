@@ -14,7 +14,7 @@
 
     <script src="/assets/js/scripts.js"></script>
     <script src="/assets/js/jquery-3.6.3.min.js"></script>
-    <script src="/assets/css/bootstrap.min.css"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>
 
     <link
       rel="stylesheet"
@@ -29,7 +29,7 @@
     />
   </head>
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top py-0">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
       <div class="container-fluid">
         <a href="index.html" class="navbar-brand mb-0 h1">
           <svg
@@ -65,27 +65,43 @@
           id="navbarNav"
         >
           <ul class="navbar-nav mx-right">
-            <li class="nav-item active">
-              <a href="/index.html" class="nav-link active"> Trang Chủ </a>
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link"> Trang Chủ </a>
             </li>
 
-            <li class="nav-item active">
-              <a href="/html/giaotrinh.html" class="nav-link"> Giáo Trình </a>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
             </li>
 
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="/html/nganhang.html" class="nav-link"> Ngân Hàng </a>
             </li>
 
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="/html/dethi.html" class="nav-link"> Đề Thi </a>
             </li>
 
-            <li class="nav-item active">
+            <li class="nav-item">
               <a href="/html/congcu.html" class="nav-link"> Công Cụ </a>
             </li>
 
-            <li class="nav-item active">
+            <li class="nav-item">
               <button
                 type="button"
                 class="btn btn-primary"
