@@ -135,6 +135,18 @@ img {
 
 /* giao trinh */
 
+.breadcrumb {
+  padding: 0.5rem 1rem;
+}
+.breadcrumb a {
+  color: #6c757d;
+  text-decoration: none;
+}
+
+.breadcrumb .breadcrumb-item.active {
+  color: rgb(9, 132, 255);
+}
+
 @media (max-width: 767.98px) {
   .border-sm-start-none {
     border-left: none !important;

@@ -30,7 +30,10 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top">
+    <nav
+      class="navbar navbar-expand-sm navbar-light fixed-top"
+      style="background-color: white"
+    >
       <div
         class="container-fluid px-3 px-md-4 px-lg-5 flex-wrap flex-md-nowrap"
       >
@@ -362,6 +365,17 @@
       </div>
     </nav>
 
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb pt-3 mb-0">
+          <li class="breadcrumb-item"><a href="#">Giáo trình</a></li>
+          <li class="breadcrumb-item"><a href="#">Công nghệ thông tin</a></li>
+          <li class="breadcrumb-item"><a href="#">Năm 1</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Kỳ 1</li>
+        </ol>
+      </nav>
+    </div>
+
     <section style="background-color: rgb(255, 255, 255)">
       <div class="container pt-3">
         <div class="row justify-content-center mb-2">
@@ -390,7 +404,7 @@
                   </div>
                   <div class="col-md-7 col-lg-7 col-xl-7">
                     <a href="#" class="text-decoration-none">
-                    <h5>Giáo trình Giải tích 1</h5>
+                      <h5>Giáo trình Giải tích 1</h5>
                     </a>
                     <div class="mt-1 d-flex flex-row">
                       <span>2012</span>
@@ -441,7 +455,7 @@
                       class="bg-image hover-zoom ripple rounded ripple-surface"
                     >
                       <img
-                        src="/assets/img/icon/word.png"
+                        src="/assets/img/icon/word.svg"
                         width="150px"
                         height="150px"
                       />
@@ -457,7 +471,7 @@
                   </div>
                   <div class="col-md-7 col-lg-7 col-xl-7">
                     <a href="#" class="text-decoration-none">
-                    <h5>Giáo trình Đại số</h5>
+                      <h5>Giáo trình Đại số</h5>
                     </a>
                     <div class="mt-1 d-flex flex-row">
                       <span>2015</span>
@@ -485,7 +499,10 @@
                       <button class="btn btn-secondary btn-sm" type="button">
                         Xem ngay
                       </button>
-                      <button class="btn btn-secondary btn-sm mt-2" type="button">
+                      <button
+                        class="btn btn-secondary btn-sm mt-2"
+                        type="button"
+                      >
                         Tải về
                       </button>
                     </div>
@@ -497,74 +514,154 @@
         </div>
       </div>
 
-      
-
-      
-
-    </section>
-
-      <div
-        class="modal fade"
-        id="demo"
-        tabindex="-1"
-        role="dialog"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Thông báo</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">Tính năng đang phát triển.</div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
+      <div class="container">
+        <div class="row justify-content-center mb-2">
+          <div class="col-md-12 col-xl-10">
+            <div class="card shadow-0 border rounded-3">
+              <div class="card-body">
+                <div class="row">
+                  <div class="col-md-15 col-lg-2 col-xl-2 mb-4 mb-lg-0">
+                    <div
+                      class="bg-image hover-zoom ripple rounded ripple-surface"
+                    >
+                      <img
+                        src="/assets/img/icon/powerpoint.svg"
+                        width="150px"
+                        height="150px"
+                      />
+                      <a href="#!">
+                        <div class="hover-overlay">
+                          <div
+                            class="mask"
+                            style="background-color: rgba(253, 253, 253, 0.15)"
+                          ></div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-7 col-lg-7 col-xl-7">
+                    <a href="#" class="text-decoration-none">
+                      <h5>Giáo trình Triết học Marx - Lenin</h5>
+                    </a>
+                    <div class="mt-1 d-flex flex-row">
+                      <span>2015</span>
+                    </div>
+                    <div class="mt-1 mb-0 text-muted small">
+                      <span>Nguyễn Văn A</span>
+                      <span class="text-primary"> • </span>
+                      <span>Nguyễn Thị B</span>
+                      <span class="text-primary"> • </span>
+                      <span>Nguyễn Văn C<br /></span>
+                    </div>
+                    <div class="text-muted small">
+                      <span>Trần Thị A</span>
+                      <span class="text-primary"> • </span>
+                      <span>Trần Thị B</span>
+                      <span class="text-primary"> • </span>
+                      <span>Trần Văn C<br /></span>
+                    </div>
+                  </div>
+                  <div
+                    class="col-md-6 col-lg-3 col-xl-3 border-sm-start-none border-start"
+                  >
+                    <h6 class="text-danger">Đang bảo trì</h6>
+                    <div class="d-flex flex-column mt-4">
+                      <button class="btn btn-secondary btn-sm" type="button">
+                        Xem ngay
+                      </button>
+                      <button
+                        class="btn btn-secondary btn-sm mt-2"
+                        type="button"
+                      >
+                        Tải về
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-
-      <footer class="pt-3 pb-3 m-0 text-center">
-        <div class="container">
-          <section class="m-1">
-            <a class="btn btn-floating m-1" href="#" role="button"
-              ><i class="bi bi-facebook"></i
-            ></a>
-  
-            <a class="btn btn-floating m-1" href="#" role="button"
-              ><i class="bi bi-twitter"></i
-            ></a>
-  
-            <a class="btn btn-floating m-1" href="#" role="button"
-              ><i class="bi bi-google"></i
-            ></a>
-  
-            <a class="btn btn-floating m-1" href="#" role="button"
-              ><i class="bi bi-instagram"></i
-            ></a>
-  
-            <a class="btn btn-floating m-1" href="#" role="button"
-              ><i class="bi bi-github"></i
-            ></a>
-          </section>
-        </div>
-        <div class="container">
-          <p class="text-center text-muted pt-3 mb-0">© 2023: Ôn Thi PTIT</p>
-          <p class="text-center text-muted mb-0">Giáo dục là miễn phí</p>
-        </div>
-      </footer>
     </section>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center m-0 p-3">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true"
+            >Previous</a
+          >
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div
+      class="modal fade"
+      id="demo"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Thông báo</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">Tính năng đang phát triển.</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="pt-3 pb-3 m-0 text-center">
+      <div class="container">
+        <section class="m-1">
+          <a class="btn btn-floating m-1" href="#" role="button"
+            ><i class="bi bi-facebook"></i
+          ></a>
+
+          <a class="btn btn-floating m-1" href="#" role="button"
+            ><i class="bi bi-twitter"></i
+          ></a>
+
+          <a class="btn btn-floating m-1" href="#" role="button"
+            ><i class="bi bi-google"></i
+          ></a>
+
+          <a class="btn btn-floating m-1" href="#" role="button"
+            ><i class="bi bi-instagram"></i
+          ></a>
+
+          <a class="btn btn-floating m-1" href="#" role="button"
+            ><i class="bi bi-github"></i
+          ></a>
+        </section>
+      </div>
+      <div class="container">
+        <p class="text-center text-muted pt-3 mb-0">© 2023: Ôn Thi PTIT</p>
+        <p class="text-center text-muted mb-0">Giáo dục là miễn phí</p>
+      </div>
+    </footer>
   </body>
 </html>
