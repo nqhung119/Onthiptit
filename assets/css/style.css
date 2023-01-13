@@ -159,5 +159,16 @@ img {
 }
 
 #navbar{
-  border-bottom: 1px solid #555 !important;
+  border-bottom: 1px solid !important;
+  border-bottom-color: rgb(218,220,224) !important;
+}
+
+/* hien thi */
+
+.embed-responsive {
+  display: block;
+}
+
+.outer_page{
+  margin: center;
 }
