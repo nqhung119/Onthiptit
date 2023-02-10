@@ -158,9 +158,9 @@ img {
   margin: 0;
 }
 
-#navbar{
+#navbar {
   border-bottom: 1px solid !important;
-  border-bottom-color: rgb(218,220,224) !important;
+  border-bottom-color: rgb(218, 220, 224) !important;
 }
 
 /* hien thi */
@@ -169,6 +169,6 @@ img {
   display: block;
 }
 
-.outer_page{
+.outer_page {
   margin: center;
 }
